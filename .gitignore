@@ -1,0 +1,55 @@
+# Sensitive files
+passwords.dat
+pass
+*.dat
+*.log
+Recovery code.txt
+mobile_export.txt
+
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Installer packages
+PasswordManager_Installer/
+*.zip
+*.tar.gz
+*.msi
+*.exe
+
+# Test files
+test_import.exe
+phase*_test.exe
